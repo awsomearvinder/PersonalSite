@@ -45,7 +45,7 @@ async function generateStaticTemplateUrlRoutes(
   }
 }
 
-export async function main() {
+async function main() {
   //Setup application and the router in charge of routing.
   const app = new Application();
   const router = new Router();
